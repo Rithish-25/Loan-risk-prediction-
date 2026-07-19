@@ -24,7 +24,7 @@ app.add_middleware(
 
 # Global variables for model
 MODEL = None
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "notebook", "loan_risk_model.pkl")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "notebook", "loan_risk_model_random_forest.pkl")
 
 # Pydantic schema for validation
 class PredictRequest(BaseModel):
