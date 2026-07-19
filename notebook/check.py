@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 # 1. Load the model
-model = joblib.load("loan_risk_model.pkl")
+model = joblib.load("loan_risk_model_random_forest.pkl")
 
 # 2. Define a sample input matching the 13 required features
 sample_data = pd.DataFrame([{
